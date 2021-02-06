@@ -1,19 +1,48 @@
-img{
-    width: 100%
+body {
+  background-color: aliceblue;
 }
 
-.project-card{
-    padding: 1em;
-    border: solid 2px pink;
+.project-card {
+  padding: 1em;
+  margin: 0;
+  border-radius: 15px;
+  -webkit-box-shadow: 16px 10px 15px -2px rgba(0, 0, 0, 0.19);
+  box-shadow: 16px 10px 15px -2px rgba(0, 0, 0, 0.19);
 }
 
-.links{
-    display: flex;
-    justify-content: space-between;
+.project-card--blue {
+  border: solid 3px #4f8bc9;
 }
-/* 
-@media(min-width: 700px){
-    img{
-        width:100%
-    }
-} */
+
+.project-card--pink {
+  border: solid 3px pink;
+}
+
+.project-card--yellow {
+  border: solid 3px gold;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=App.css.map */

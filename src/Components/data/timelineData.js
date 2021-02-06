@@ -8,33 +8,36 @@ const timelineData =[
     Als thema koos ik de Amerikaanse politicus Pete Buttigieg. Een element waar ik trots op ben is de volgorde van de tekst 
     en foto's op de 'biografie' pagina - die is verschillend voor de mobiele en voor de desktop versie. Een ander tof detail 
     is dat één van de filmpjes op de primary-pagina op het eind qua kleur overloopt in de achtergrond van de website. Omdat ik voor de 
-    website de campagne-kleuren heb gebruikt uit de 'Pete for America design Toolkit'`,
+    website de campagne-kleuren heb gebruikt uit de 'Pete for America design Toolkit'.`,
     siteUrl: "https://pete-buttigieg.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/Eerste_html_pagina",
+    showInfo: false
     },
 
     {date: "september 2020",
     type: "Winc",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Advanced_CSS.png?raw=true",
     title: "Advanced CSS",
-    talen: ["html", "CSS"],
-    text: `Dit was het tweede project voor mijn opleiding. De bedoeling was onder andere het oefenen met CSS pseudo-classes. 
+    talen: ["html", "Sass"],
+    text: `Dit was het tweede project voor mijn opleiding. De bedoeling was onder andere het oefenen met CSS pseudo-classes en het werken met Sass. 
     In dit project heb ik veel geleerd over CSS animaties en position. Ik ben met name trots op de social media buttons.`,
     siteUrl: "https://advanced-css-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/Advanced_CSS",
+    showInfo: false
     },
 
     {date: "september 2020",
     type: "Winc",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/KleurenToggle.png?raw=true",
     title: "Kleuren Toggle",
-    talen: ["html", "CSS", "JavaScript"],
+    talen: ["html", "Sass", "JavaScript"],
     text: `Dit is mijn eerste JavaScript project. Door te klikken op de kleuren of één van de cijfertoetsen in te drukken verandert de achtergrond
-    van de website van kleur. Het kind van een vriendin vond het een leuk spelletje, maar vond de site 'wel een beetje saai', daarom heb ik voor hem een
+    van de website van kleur. Het kind van een vriendin vond het een leuk spelletje, maar vond het uiterlijk van de site 'wel een beetje saai', daarom heb ik voor hem een
     spin-off versie gemaakt met wat meer elementen en animaties.`,
     siteUrl: "https://kleurentoggle-darya.netlify.app/",
     secondSiteUrl: "https://vigorous-stonebraker-4c6636.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/kleurenToggle",
+    showInfo: false
     },
 
     {date: "september 2020",
@@ -47,18 +50,20 @@ const timelineData =[
     DOM-manipulatie en het lezen van een waarde uit een input-field.`,
     siteUrl: "https://jeffreys-verjaardagsmissie.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Jeffrey_speurtocht",
+    showInfo: false
     },
 
     {date: "oktober 2020",
     type: "Winc",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Filmzoeker.png?raw=true",
     title: "Filmzoeker",
-    talen: ["html", "CSS", "JavaScript"],
+    talen: ["html", "Sass", "JavaScript"],
     text: `De filmzoeker was een project waarbij ik leerde hoe je de DOM opbouwt vanuit een database. Ook leerde ik meer over het toepassen van filters, en 
     het verwerken van gebruikers input. Waar ik bij dit project ook heel erg op geoefend heb is DRY programmeren. Ik was dan ook erg trots dat mijn JavaScript 
     file uit 50 regels code bestaat.`,
     siteUrl: "https://filmzoeker-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/Filmzoeker",
+    showInfo: false
     },
 
     {date: "oktober 2020",
@@ -70,6 +75,7 @@ const timelineData =[
     de opbouw van de DOM loskoppelen van de API calls, want nu reageert de website erg traag.`,
     siteUrl: "https://to-do-list-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/To_do_list_with_API",
+    showInfo: false
     },
 
     {date: "november 2020",
@@ -81,6 +87,7 @@ const timelineData =[
     website heb om te laten zien, vind ik het toch leuk om dit project te delen omdat ik het een toffe opdracht vond en erg m'n best heb gedaan op mooie,
     cleane code.`,
     gitHubRepo: "https://github.com/DHvanTienhoven/TDD_groentetuin",
+    showInfo: false
     },
 
     {date: "december 2020",
@@ -92,6 +99,7 @@ const timelineData =[
     website met een mooie CSS-animatie (niet door mij gemaakt). Wat voor mij het meest uitdagend was was om de achtergrond in kleur te laten verlopen.`,
     siteUrl: "https://ahyf-uitnodiging.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Yogafestival/uitnodiging",
+    showInfo: false
     },
 
     {date: "december 2020",
@@ -103,6 +111,7 @@ const timelineData =[
     over dit project gedaan, maar uiteindelijk is het me gelukt.`,
     siteUrl: "https://react-playlist-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/React_Playlist",
+    showInfo: false
     },
 
     {date: "december 2020",
@@ -117,6 +126,7 @@ const timelineData =[
     Ik heb heel veel geleerd van Advent of Code: het zoeken naar creatieve oplossingen, ik heb veel geoefend met en geleerd over Array methods, en 
     ik heb geleerd om recursieve functies te schrijven.`,
     gitHubRepo: "https://github.com/DHvanTienhoven/Advent_of_Code",
+    showInfo: false
     },
 
     {date: "januari 2021",
@@ -128,6 +138,7 @@ const timelineData =[
     vooral geleerd hoe je een overzichtelijke html-tabel maakt.`,
     siteUrl: "https://ahyf-festivalsite.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Yogafestival/festival",
+    showInfo: false
     },
 
     {date: "januari 2021",
@@ -146,6 +157,7 @@ const timelineData =[
     dus goed nagedacht over user experience, en ook input van anderen meegenomen.`,
     siteUrl: "https://student-dashboard-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/React_student_dashboard",
+    showInfo: false
     }
 ]
 
