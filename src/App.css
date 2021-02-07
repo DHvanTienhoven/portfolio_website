@@ -18,6 +18,11 @@ body {
   width: 100%;
 }
 
+.project-card svg {
+  width: 2em;
+  height: 2em;
+}
+
 .project-card a {
   text-decoration: none;
 }
@@ -44,5 +49,6 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  list-style: none;
 }
 /*# sourceMappingURL=App.css.map */

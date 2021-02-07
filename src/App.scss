@@ -21,6 +21,10 @@ body{
     & img{
         width: 100%
     }
+    & svg{
+        width: 2em;
+        height: 2em;
+    }
     & a{
         text-decoration: none;
     }
@@ -35,6 +39,7 @@ body{
         padding-inline-start: 0;
         display: flex;
         justify-content: space-evenly;
+        list-style: none;
     }
 }
 

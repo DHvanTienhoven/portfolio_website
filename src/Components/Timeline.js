@@ -4,13 +4,15 @@ import timelineData from './data/timelineData';
 import 'react-vertical-timeline-component/style.min.css';
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { IoMdSchool } from "react-icons/io";
-import {FaFan} from "react-icons/fa"
+import {FaFan, FaJs, FaHtml5} from "react-icons/fa";
+import {DiCss3, DiReact, DiSass} from "react-icons/di";
+import {ReactComponent as Jest} from "./img/jest.svg"
 
 const Timeline = () => {
 
     const [infoVisibility, setInfoVisibility] = useState(timelineData)
 
-    const clickEvent = index => {
+    const toggleVisibility = index => {
         console.log(index, infoVisibility[index].showInfo)
         const newVisibility = [...infoVisibility]
         newVisibility[index].showInfo = !newVisibility[index].showInfo
@@ -27,22 +29,49 @@ const Timeline = () => {
         }
     }
 
-    const getIcon = item => {
-        if (item.type === "Winc") {
+    const getIcon = (item) => {
+        if (item === "Winc") {
             return <IoMdSchool 
             style={{
                 color: "white",
             }}/>
-        } if (item.type === "opdracht") {
+        } if (item === "opdracht") {
             return <BsFillBriefcaseFill
                 style={{
                     color: "white",
                 }} />
-        } if (item.type === "hobby") {
+        } if (item === "hobby") {
             return <FaFan
                 style={{
                     color: "white",
                 }} />
+        } if (item === "JavaScript"){
+            return <FaJs
+            style={{
+                fill: "#f0db4f"
+            }}/>
+        } if (item === "html"){
+            return <FaHtml5
+            style={{
+                fill: "#e44d26"
+            }}/>
+        } if (item === "CSS"){
+            return <DiCss3
+            style={{
+                fill: "#296de4"
+            }}/>
+        } if (item === "React"){
+            return <DiReact
+            style={{
+                fill: "#61dbfb"
+            }}/>
+        } if (item === "Sass"){
+            return <DiSass
+            style={{
+                fill: "#cc6699"
+            }}/>
+        } if (item === "jest"){
+            return <Jest/>
         }
     }
 
@@ -53,7 +82,7 @@ const Timeline = () => {
             return "#ffd900"
         } if (item.type === "hobby") {
             return "#ff9faf"
-        }
+        } 
     }
 
     const getBorder = item => {
@@ -70,7 +99,7 @@ const Timeline = () => {
                     return (
                         <VerticalTimelineElement
                             date={item.date}
-                            icon={getIcon(item)}
+                            icon={getIcon(item.type)}
                             iconStyle={{
                                 backgroundColor: getColor(item),
                             }}
@@ -79,16 +108,16 @@ const Timeline = () => {
                             }}
                         >
                             <div className={getClassName(item)}>
-                                <div className="foto" onClick={() => clickEvent(index)}>
+                                <div className="foto" onClick={() => toggleVisibility(index)}>
                                     <img src={item.imgUrl} width="400px" alt={item.title}></img>
                                     <h3>{item.title}</h3>
                                 </div>
                                 {item.showInfo &&
-                                    <div className="info">
+                                    <div className="info" onClick={()=> toggleVisibility(index)}>
                                         <ul>
                                             {item.talen.map(item => {
                                                 return (
-                                                    <li>{item}</li>
+                                                    <li>{getIcon(item)}</li>
                                                 )
                                             })}
                                         </ul>
