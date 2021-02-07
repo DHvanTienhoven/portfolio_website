@@ -18,11 +18,6 @@ body {
   width: 100%;
 }
 
-.project-card svg {
-  width: 2em;
-  height: 2em;
-}
-
 .project-card a {
   text-decoration: none;
 }
@@ -50,5 +45,78 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
+}
+
+.project-card svg {
+  width: 2em;
+  height: 2em;
+}
+
+.projecten {
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  background-color: #a8d6ff;
+}
+
+.projecten span {
+  vertical-align: center;
+  padding-left: 1em;
+}
+
+.projecten h1 {
+  padding-left: 8vw;
+}
+
+.projecten em {
+  padding-left: 8vw;
+  padding-top: 2em;
+}
+
+.projecten svg {
+  fill: white;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.projecten ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.projecten ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .projecten svg {
+    height: 1.6em;
+    width: 1.6em;
+    vertical-align: middle;
+    margin: 0;
+    padding: 1.2em;
+  }
+  .projecten ul li {
+    display: block;
+  }
+  .projecten h1 {
+    padding-left: 15vw;
+  }
+  .projecten em {
+    padding-left: 15vw;
+  }
 }
 /*# sourceMappingURL=App.css.map */

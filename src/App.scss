@@ -21,10 +21,6 @@ body{
     & img{
         width: 100%
     }
-    & svg{
-        width: 2em;
-        height: 2em;
-    }
     & a{
         text-decoration: none;
     }
@@ -41,7 +37,63 @@ body{
         justify-content: space-evenly;
         list-style: none;
     }
+    & svg{
+        width: 2em;
+        height: 2em;
+    }
 }
 
+.projecten{
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    background-color: rgb(168, 214, 255);
+    & span{
+        vertical-align: center;
+        padding-left: 1em
+    }
+    & h1{
+        padding-left: 8vw
+    }
+    & em{
+        padding-left: 8vw;
+        padding-top: 2em;
+    }
+    & svg{
+        fill: white;
+        padding: 0.5em;
+        border-radius: 50%;
+        margin: 0 auto
+    }
+    & ul{
+        padding-inline-start: 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        & li{
+            display: flex;
+            flex-direction: column;
+        }
+    } 
+}
 
+@media(min-width: 700px) {
+    .projecten{
+        & svg{
+            height: 1.6em;
+            width: 1.6em;
+            vertical-align: middle;
+            margin: 0;
+            padding: 1.2em;
+        }
+        & ul li{
+            display: block;
+        }
+        & h1{
+            padding-left: 15vw
+        }
+        & em{
+            padding-left: 15vw;
+        }
+    }
+}
 
