@@ -8,21 +8,21 @@ function TimelineHeader() {
         <div className = "projecten">
             <h1>Projecten:</h1>
             <ul>
-                <li>
+                <li key = "1">
                     <IoMdSchool
                     style={{
                         backgroundColor: "#4f8bc9"
                     }}/>
                     <span>Werk voor de opleiding</span>
                 </li>
-                <li>
+                <li key = "2">
                     <BsFillBriefcaseFill
                         style={{
                             backgroundColor: "#ffd900",
                         }}/>
                     <span>Werk in opdracht</span>
                 </li>
-                <li>
+                <li key = "3">
                     <FaFan
                         style={{
                             backgroundColor: "#ff9faf"

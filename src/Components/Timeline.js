@@ -98,6 +98,7 @@ const Timeline = () => {
                 {timelineData.map((item, index) => {
                     return (
                         <VerticalTimelineElement
+                            key = {index}
                             date={item.date}
                             icon={getIcon(item.type)}
                             iconStyle={{
@@ -115,9 +116,9 @@ const Timeline = () => {
                                 {item.showInfo &&
                                     <div className="info" onClick={()=> toggleVisibility(index)}>
                                         <ul>
-                                            {item.talen.map(item => {
+                                            {item.talen.map((item, index) => {
                                                 return (
-                                                    <li>{getIcon(item)}</li>
+                                                    <li key ={index}>{getIcon(item)}</li>
                                                 )
                                             })}
                                         </ul>

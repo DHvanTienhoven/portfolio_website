@@ -2,6 +2,7 @@ import './App.css';
 import Timeline from './Components/Timeline';
 import {useEffect} from 'react'
 import TimelineHeader from './Components/TimelineHeader';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <TimelineHeader/>
       <Timeline/>
+      <Footer/>
     </div>
   );
 }
