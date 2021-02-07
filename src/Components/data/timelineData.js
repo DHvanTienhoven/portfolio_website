@@ -2,7 +2,7 @@ const timelineData =[
     {date: "augustus 2020",
     type: "Winc",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Pete_Buttigieg.png?raw=true",
-    title: "Pete Buttigieg",
+    title: "Eerste html pagina",
     talen: ["html", "CSS"],
     text: `Dit was de eerste uitgebreide website die ik maakte voor mijn opleiding Frontend Development bij Winc Academy.
     Als thema koos ik de Amerikaanse politicus Pete Buttigieg. Een element waar ik trots op ben is de volgorde van de tekst 
@@ -19,7 +19,7 @@ const timelineData =[
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Advanced_CSS.png?raw=true",
     title: "Advanced CSS",
     talen: ["html", "Sass"],
-    text: `Dit was het tweede project voor mijn opleiding. De bedoeling was onder andere het oefenen met CSS pseudo-classes en het werken met Sass. 
+    text: `Dit was het tweede project voor mijn opleiding. De bedoeling was onder andere het oefenen met CSS pseudo-classes, Sass en animaties. 
     In dit project heb ik veel geleerd over CSS animaties en position. Ik ben met name trots op de social media buttons.`,
     siteUrl: "https://advanced-css-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/Advanced_CSS",
@@ -33,7 +33,8 @@ const timelineData =[
     talen: ["html", "Sass", "JavaScript"],
     text: `Dit is mijn eerste JavaScript project. Door te klikken op de kleuren of één van de cijfertoetsen in te drukken verandert de achtergrond
     van de website van kleur. Het kind van een vriendin vond het een leuk spelletje, maar vond het uiterlijk van de site 'wel een beetje saai', daarom heb ik voor hem een
-    spin-off versie gemaakt met wat meer elementen en animaties.`,
+    spin-off versie gemaakt met wat meer elementen en animaties. Als ik de site nu nog eens zou maken zou ik de mobiele versie beter ontwerpen:
+    met kleinere blokken in het menu en zonder de cijfers in beeld.`,
     siteUrl: "https://kleurentoggle-darya.netlify.app/",
     secondSiteUrl: "https://vigorous-stonebraker-4c6636.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/kleurenToggle",

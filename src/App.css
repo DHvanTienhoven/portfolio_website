@@ -1,32 +1,32 @@
 body {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
 }
 
-.project-card {
-  padding: 1em;
-  margin: 0;
-  border-radius: 15px;
-  -webkit-box-shadow: 16px 10px 15px -2px rgba(0, 0, 0, 0.19);
-  box-shadow: 16px 10px 15px -2px rgba(0, 0, 0, 0.19);
+.project-card--blue a {
+  color: #4f8bc9;
 }
 
-.project-card--blue {
-  border: solid 3px #4f8bc9;
+.project-card--pink a {
+  color: #ff9faf;
 }
 
-.project-card--pink {
-  border: solid 3px pink;
-}
-
-.project-card--yellow {
-  border: solid 3px gold;
+.project-card--yellow a {
+  color: #ffd900;
 }
 
 .project-card img {
   width: 100%;
 }
 
-.links {
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.project-card .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +35,7 @@ body {
           justify-content: space-between;
 }
 
-ul {
+.project-card ul {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   display: -webkit-box;
