@@ -1,21 +1,42 @@
+@font-face {
+    font-family: Titillium;
+    src: url(TitilliumWeb-Regular.ttf);
+}
+
 body{
-    background-color: #f0f8ff;
+    background-color: #a8d6ff;
+    color: #3B3C36;
+    font-family: Titillium;
 }
 
 .header{
-    background-color: #a8d6ff;
+    padding: 1em 8vw;
+}
+
+.introduction{
+    background-color: #f0f8ff;
+    padding: 1em 8vw;
+    & img{
+        display: block;       
+        width: 55vw;
+        margin: 1em auto
+    }
+    & p{
+        display: inline;
+    }
 }
 
 .projecten{
-    background-color: #a8d6ff;
     padding-top: 0.5em;
     padding-bottom: 2em;
     & span{
         vertical-align: center;
-        padding-left: 1em
+        padding-left: 1em;
+        padding-right: 1em
     }
     & h1{
-        padding-left: 8vw
+        padding-left: 8vw;
+        margin-block-start: 0.5em;
     }
     & em{
         padding-left: 8vw;
@@ -39,22 +60,11 @@ body{
     } 
 }
 
+.timeline{
+    background-color: #f0f8ff;
+}
+
 .project-card{
-    // &--blue{
-    //     & a{
-    //         color: #4f8bc9
-    //     }
-    // }
-    // &--pink{
-    //     & a{
-    //         color: #ff9faf
-    //     }
-    // }
-    // &--yellow{
-    //     & a{
-    //         color: #ffd900
-    //     }
-    // }
     & img{
         width: 100%
     }
@@ -83,16 +93,44 @@ body{
 
 
 footer{
-    background-color: #a8d6ff;
-    display: grid;
-    grid-template-columns: 3;
+    padding-left: 1em;
+    display: flex;
+    font-size: 10px;
     & svg{
-        height: 1.6em;
-        width: 1.6em;
+        height: 2.2em;
+        width: 2.2em;
+        margin-top: 1.2em;
+        margin-left: 4em;
+        &:hover{
+            border: solid white 1px
+        }
     }
 }
 
 @media(min-width: 700px) {
+    h1{
+        font-size: 50px;
+    }
+    .header{
+        padding: 3em 15vw;
+    }
+    .introduction{
+        padding: 1em 15vw;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        & img{
+            width: 350px;
+            height: 350px;
+            max-width: 30vw;
+            max-height: 30vw;
+            padding-left: 2em;
+            vertical-align: middle;
+        }
+        & p{
+            vertical-align: middle;
+        }
+    }
     .projecten{
         & svg{
             height: 1.6em;
@@ -110,6 +148,10 @@ footer{
         & em{
             padding-left: 15vw;
         }
+    }
+    footer{
+        padding-left: 5em;
+        font-size: 15px;
     }
 }
 

@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Introduction from './Components/Introduction';
 
-function App() {
+const App = () => {
 
   useEffect(() => {
     document.title = "Portfolio Darya van Tienhoven"

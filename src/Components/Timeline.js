@@ -6,7 +6,7 @@ import { BsFillBriefcaseFill } from "react-icons/bs";
 import { IoMdSchool } from "react-icons/io";
 import {FaFan, FaJs, FaHtml5} from "react-icons/fa";
 import {DiCss3, DiReact, DiSass} from "react-icons/di";
-import {ReactComponent as Jest} from "./img/jest.svg"
+import {ReactComponent as Jest} from "./img/jest.svg";
 
 const Timeline = () => {
 
@@ -80,7 +80,7 @@ const Timeline = () => {
     }
 
     return (
-        <div>
+        <div className ="timeline">
             <VerticalTimeline>
                 {timelineData.map((item, index) => {
                     return (

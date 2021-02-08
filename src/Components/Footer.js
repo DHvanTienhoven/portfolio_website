@@ -7,10 +7,16 @@ const Footer = () => {
         <footer>
             <p>Website gemaakt door Darya van Tienhoven <br />Contact: daryaheleen@gmail.com</p>
             <a href="https://www.linkedin.com/in/darya-van-tienhoven/" target="_blank">
-                <FaLinkedin />
+                <FaLinkedin 
+                    style ={{
+                        fill: "#2867B2"
+                    }}/>
             </a>
             <a href="https://github.com/DHvanTienhoven" target="_blank">
-                <FaGithub />
+                <FaGithub
+                    style ={{
+                        fill: "black"
+                    }} />
             </a>
         </footer>
     )
