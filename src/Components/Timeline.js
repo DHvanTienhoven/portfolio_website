@@ -19,16 +19,6 @@ const Timeline = () => {
         setInfoVisibility(newVisibility)
     }
 
-    const getClassName = item => {
-        if (item.type === "Winc") {
-            return "project-card project-card--blue"
-        } if (item.type === "opdracht") {
-            return "project-card project-card--yellow"
-        } if (item.type === "hobby") {
-            return "project-card project-card--pink"
-        }
-    }
-
     const getIcon = (item) => {
         if (item === "Winc") {
             return <IoMdSchool 
@@ -75,26 +65,23 @@ const Timeline = () => {
         }
     }
 
-    const getColor = item => {
-        if (item.type === "Winc") {
+    const getColor = type => {
+        if (type === "Winc") {
             return "#4f8bc9"
-        } if (item.type === "opdracht") {
+        } if (type === "opdracht") {
             return "#ffd900"
-        } if (item.type === "hobby") {
+        } if (type === "hobby") {
             return "#ff9faf"
         } 
     }
 
-    const getBorder = item => {
-        return `solid 3px ${getColor(item)}`
+    const getBorder = type => {
+        return `solid 3px ${getColor(type)}`
     }
 
     return (
         <div>
-            <VerticalTimeline
-                style ={{
-                    backgroundColor: "#f0f8ff"
-                }}>
+            <VerticalTimeline>
                 {timelineData.map((item, index) => {
                     return (
                         <VerticalTimelineElement
@@ -102,13 +89,13 @@ const Timeline = () => {
                             date={item.date}
                             icon={getIcon(item.type)}
                             iconStyle={{
-                                backgroundColor: getColor(item),
+                                backgroundColor: getColor(item.type),
                             }}
                             contentStyle={{
-                                borderTop: getBorder(item)
+                                borderTop: getBorder(item.type),
                             }}
                         >
-                            <div className={getClassName(item)}>
+                            <div className="project-card">
                                 <div className="foto" onClick={() => toggleVisibility(index)}>
                                     <img src={item.imgUrl} width="400px" alt={item.title}></img>
                                     <h3>{item.title}</h3>
@@ -126,10 +113,24 @@ const Timeline = () => {
                                         <br />
                                         <div className="links">
                                             {item.siteUrl &&
-                                                <a href={item.siteUrl} target="_blank">Website</a>}
+                                                <a 
+                                                href={item.siteUrl} 
+                                                target="_blank"
+                                                style ={{
+                                                    color: getColor(item.type)
+                                                }}>Website</a>}
                                             {item.secondSiteUrl &&
-                                                <a href={item.secondSiteUrl} target="_blank">spin-off</a>}
-                                            <a href={item.gitHubRepo} target="_blank">Code op Github</a>
+                                                <a href={item.secondSiteUrl} 
+                                                target="_blank"
+                                                style ={{
+                                                    color: getColor(item.type)
+                                                }}>spin-off</a>}
+                                            <a 
+                                                href={item.gitHubRepo} 
+                                                target="_blank"
+                                                style ={{
+                                                    color: getColor(item.type)
+                                                }}>Code op Github</a>
                                         </div>
                                     </div>}
                             </div>

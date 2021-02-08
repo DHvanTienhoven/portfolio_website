@@ -2,60 +2,14 @@ body {
   background-color: #f0f8ff;
 }
 
-.project-card--blue a {
-  color: #4f8bc9;
-}
-
-.project-card--pink a {
-  color: #ff9faf;
-}
-
-.project-card--yellow a {
-  color: #ffd900;
-}
-
-.project-card img {
-  width: 100%;
-}
-
-.project-card a {
-  text-decoration: none;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
-}
-
-.project-card .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.project-card ul {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  list-style: none;
-}
-
-.project-card svg {
-  width: 2em;
-  height: 2em;
+.header {
+  background-color: #a8d6ff;
 }
 
 .projecten {
+  background-color: #a8d6ff;
   padding-top: 0.5em;
   padding-bottom: 2em;
-  background-color: #a8d6ff;
 }
 
 .projecten span {
@@ -99,6 +53,44 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.project-card .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-card ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.project-card svg {
+  width: 2em;
+  height: 2em;
 }
 
 footer {
