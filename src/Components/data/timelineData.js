@@ -163,7 +163,7 @@ const timelineData =[
     {date: "februari 2021",
     type: "hobby",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/portfolio.png?raw=true",
-    title: "Student Dashboard",
+    title: "Portfolio",
     talen: ["React", "Sass"],
     text: `Misschien een beetje vreemd om deze ook hier te delen, maar ik wilde toch beschrijven wat ik van dit project geleerd heb. Eén van de belangrijkste
     dingen die ik geleerd heb is het dynamisch renderen van foto's voor mijn website. Voor het tijdlijn-element heb ik react-vertical-timeline gebruikt. Hiervoor 
