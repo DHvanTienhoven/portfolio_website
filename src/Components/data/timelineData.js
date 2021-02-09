@@ -159,6 +159,18 @@ const timelineData =[
     siteUrl: "https://student-dashboard-darya.netlify.app/",
     gitHubRepo: "https://github.com/DHvanTienhoven/React_student_dashboard",
     showInfo: false
+    },
+    {date: "februari 2021",
+    type: "hobby",
+    imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/portfolio.png?raw=true",
+    title: "Student Dashboard",
+    talen: ["React", "Sass"],
+    text: `Misschien een beetje vreemd om deze ook hier te delen, maar ik wilde toch beschrijven wat ik van dit project geleerd heb. Eén van de belangrijkste
+    dingen die ik geleerd heb is het dynamisch renderen van foto's voor mijn website. Voor het tijdlijn-element heb ik react-vertical-timeline gebruikt. Hiervoor 
+    was het nuttig om inline te stylen, dus daar heb ik meer mee geoefend. Omdat ik ook terug keek naar oudere projecten heb ik weer Sass gebruikt (ik was dat een 
+    beetje vergeten), en herontdekt hoe fijn dat is om je CSS code te structureren.`,
+    gitHubRepo: "https://github.com/DHvanTienhoven/portfolio_website",
+    showInfo: false
     }
 ]
 

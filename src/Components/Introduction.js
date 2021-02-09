@@ -11,7 +11,8 @@ const Introduction=()=> {
             idee dat ik vanwege mijn analytisch denkvermogen goed zou kunnen zijn in programmeren, maar ik vond het verrassend
             hoeveel plezier ik had in het leren programmeren. Ook de creativiteit die nodig is om tot oplossingen te komen verraste
             mij. Ik vind het altijd interessant om mijn werk te vergelijken met het werk van mede-studenten om te zien hoe iedereen
-            tot een verschillende oplossing is gekomen voor hetzelfde probleem. Ik blijf vaak langere tijd aan mijn code 'schaven', 
+            tot een verschillende oplossing is gekomen voor hetzelfde probleem. Ik houd ervan om 'in- en uit te zoomen' op onderdelen 
+            van een project en ik blijf vaak langere tijd aan mijn code 'schaven', 
             tot ik het zelf mooi vind. Wat ik ook heel tof vind aan het programmeren is dat er altijd nieuwe dingen te ontdekken 
             en te leren zijn, nu natuurlijk, omdat ik het letterlijk aan het leren ben, maar ik verwacht dat dat ook in de toekomst
             zo blijft. Omdat er altijd nieuwe ontwikkelingen zijn. <br/> Naast programmeren heb ik vele interesses onder andere 
