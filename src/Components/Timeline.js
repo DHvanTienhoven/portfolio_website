@@ -132,7 +132,7 @@ const Timeline = () => {
                                                 target="_blank"
                                                 style ={{
                                                     color: getColor(item.type)
-                                                }}>Code op Github</a>
+                                                }}>Code op GitHub</a>
                                         </div>
                                     </div>}
                             </div>

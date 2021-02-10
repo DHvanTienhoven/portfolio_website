@@ -118,7 +118,7 @@ const timelineData =[
     {date: "december 2020",
     type: "hobby",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Advent_of_Code.png?raw=true",
-    title: "Advent of Code 2020",
+    title: "Advent of Code",
     talen: ["JavaScript"],
     text: `Een docent deelde in de chat van mijn opleiding een linkje naar 'Advent of Code' en ik was meteen 'hooked'. De eerste paar dagen deed ik
     elke dag de puzzletjes, maar toen ze steeds complexer werden en meer tijd kostten lukte dat niet meer. Op kerstavond 2020 had ik een score 

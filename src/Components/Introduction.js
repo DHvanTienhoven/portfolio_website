@@ -17,7 +17,7 @@ const Introduction=()=> {
             en te leren zijn, nu natuurlijk, omdat ik het letterlijk aan het leren ben, maar ik verwacht dat dat ook in de toekomst
             zo blijft. Omdat er altijd nieuwe ontwikkelingen zijn. <br/> Naast programmeren heb ik vele interesses onder andere 
             geschiedenis, archeologie, politiek, taalwetenschap, design en theater. Ik houd ook van afspreken met vrienden, lezen, yoga, 
-            wandelen, schaatsen, hardlopen en podcasts luisteren.
+            wandelen, Vlieland, schaatsen, hardlopen en podcasts luisteren.
             </p>
             <img src = {portrait} alt = "portret Darya van Tienhoven"  ></img>
         </div>
