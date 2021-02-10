@@ -125,6 +125,13 @@ body {
   height: 2em;
 }
 
+.vertical-timeline-element-content:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.38);
+}
+
 footer {
   padding-left: 1em;
   display: -webkit-box;

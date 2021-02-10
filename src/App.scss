@@ -91,6 +91,11 @@ body{
     }
 }
 
+.vertical-timeline-element-content:hover{
+    transition-duration: 1s;
+    -webkit-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.38); 
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.38);
+}
 
 
 footer{

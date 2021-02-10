@@ -79,6 +79,8 @@ const Timeline = () => {
         return `solid 3px ${getColor(type)}`
     }
 
+    
+
     return (
         <div className ="timeline">
             <VerticalTimeline>
