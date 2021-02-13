@@ -13,13 +13,12 @@ const Timeline = () => {
     const [infoVisibility, setInfoVisibility] = useState(timelineData)
 
     const toggleVisibility = index => {
-        console.log(index, infoVisibility[index].showInfo)
         const newVisibility = [...infoVisibility]
         newVisibility[index].showInfo = !newVisibility[index].showInfo
         setInfoVisibility(newVisibility)
     }
 
-    const getIcon = (item) => {
+    const getIcon = item => {
         if (item === "Winc") {
             return <IoMdSchool 
             style={{
@@ -84,54 +83,54 @@ const Timeline = () => {
     return (
         <div className ="timeline">
             <VerticalTimeline>
-                {timelineData.map((item, index) => {
+                {timelineData.map((project, index) => {
                     return (
                         <VerticalTimelineElement
                             key = {index}
-                            date={item.date}
-                            icon={getIcon(item.type)}
+                            date={project.date}
+                            icon={getIcon(project.type)}
                             iconStyle={{
-                                backgroundColor: getColor(item.type),
+                                backgroundColor: getColor(project.type),
                             }}
                             contentStyle={{
-                                borderTop: getBorder(item.type),
+                                borderTop: getBorder(project.type),
                             }}
                         >
                             <div className="project-card">
                                 <div className="foto" onClick={() => toggleVisibility(index)}>
-                                    <img src={item.imgUrl} width="400px" alt={item.title}></img>
-                                    <h3>{item.title}</h3>
+                                    <img src={project.imgUrl} width="400px" alt={project.title}></img>
+                                    <h3>{project.title}</h3>
                                 </div>
-                                {item.showInfo &&
+                                {project.showInfo &&
                                     <div className="info" onClick={()=> toggleVisibility(index)}>
                                         <ul>
-                                            {item.talen.map((item, index) => {
+                                            {project.talen.map((item, index) => {
                                                 return (
                                                     <li key ={index}>{getIcon(item)}</li>
                                                 )
                                             })}
                                         </ul>
-                                        <p>{item.text}</p>
+                                        <p>{project.text}</p>
                                         <br />
                                         <div className="links">
-                                            {item.siteUrl &&
+                                            {project.siteUrl &&
                                                 <a 
-                                                href={item.siteUrl} 
+                                                href={project.siteUrl} 
                                                 target="_blank"
                                                 style ={{
-                                                    color: getColor(item.type)
+                                                    color: getColor(project.type)
                                                 }}>Website</a>}
-                                            {item.secondSiteUrl &&
-                                                <a href={item.secondSiteUrl} 
+                                            {project.secondSiteUrl &&
+                                                <a href={project.secondSiteUrl} 
                                                 target="_blank"
                                                 style ={{
-                                                    color: getColor(item.type)
+                                                    color: getColor(project.type)
                                                 }}>spin-off</a>}
                                             <a 
-                                                href={item.gitHubRepo} 
+                                                href={project.gitHubRepo} 
                                                 target="_blank"
                                                 style ={{
-                                                    color: getColor(item.type)
+                                                    color: getColor(project.type)
                                                 }}>Code op GitHub</a>
                                         </div>
                                     </div>}

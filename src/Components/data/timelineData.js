@@ -148,7 +148,7 @@ const timelineData =[
     title: "Student Dashboard",
     talen: ["React", "CSS"],
     text: `Dit was het laatste grote project van de frontend opleiding van Winc. Gemaakt met React en met Victory Chart. Ik heb van dit project veel geleerd 
-    over het structureren en bruikbaar maken van grote data-sets. Ook heb ik me op advies van een docent verdiept in React hooks en dit project volledig opgebouwd
+    over het structureren en bruikbaar maken van data-sets. Ook heb ik me op advies van een docent verdiept in React hooks en dit project volledig opgebouwd
     met functional components. Waar ik trots op ben in dit project is dat ik veel heb verbeterd en toegevoegd na input van anderen. Zoals het advies om alleen
     functional components te gebruiken (wat ik uiteindelijk ook fijner vond werken). Een studiegenoot vroeg me of ik wist hoe de Victory Tooltips werken, die had
     ik zelf nog niet gebruikt, maar nadat ik had uitgezocht hoe ze werken, vond ik het ook een goede toevoeging voor mijn project om de leesbaarheid van het staafdiagram
