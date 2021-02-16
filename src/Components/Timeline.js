@@ -7,6 +7,7 @@ import { IoMdSchool } from "react-icons/io";
 import {FaFan, FaJs, FaHtml5} from "react-icons/fa";
 import {DiCss3, DiReact, DiSass} from "react-icons/di";
 import {ReactComponent as Jest} from "./img/jest.svg";
+import {ReactComponent as Python} from "./img/python.svg";
 
 const Timeline = () => {
 
@@ -61,6 +62,8 @@ const Timeline = () => {
             }}/>
         } if (item === "jest"){
             return <Jest/>
+        } if (item === "Python"){
+            return <Python/>
         }
     }
 

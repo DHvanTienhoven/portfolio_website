@@ -119,11 +119,11 @@ const timelineData =[
     type: "hobby",
     imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Advent_of_Code.png?raw=true",
     title: "Advent of Code",
-    talen: ["JavaScript"],
+    talen: ["JavaScript", "Python"],
     text: `Een docent deelde in de chat van mijn opleiding een linkje naar 'Advent of Code' en ik was meteen 'hooked'. De eerste paar dagen deed ik
     elke dag de puzzletjes, maar toen ze steeds complexer werden en meer tijd kostten lukte dat niet meer. Op kerstavond 2020 had ik een score 
     van 20 sterren, waar ik best trots op was (voor 2021 is mijn doel minimaal 21 sterren). Ik heb in december alles in JavaScript gedaan, maar ben nu Python 
-    aan het leren en ik ben van plan om binnenkort weer een paar puzzels op te pakken waar ik in december niet uit kwam, om mijn Python-skills te oefenen. 
+    aan het leren en ik ben nu bezig met Advent of Code 2019 in Python, om mijn Python-skills te oefenen. 
     Ik heb heel veel geleerd van Advent of Code: het zoeken naar creatieve oplossingen, ik heb veel geoefend met en geleerd over Array methods, en 
     ik heb geleerd om recursieve functies te schrijven.`,
     gitHubRepo: "https://github.com/DHvanTienhoven/Advent_of_Code",
