@@ -138,7 +138,7 @@ const timelineData =[
     text: `In dezelfde stijl als de AHYF-uitnodiging uit december, maar nu met wat meer inhoud: De At Home Yoga Fest festivalsite. Ik heb van dit project
     vooral geleerd hoe je een overzichtelijke html-tabel maakt.`,
     siteUrl: "https://ahyf-festivalsite.netlify.app/",
-    gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Yogafestival/festival",
+    gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Yogafestival/festival_winter",
     showInfo: false
     },
 
@@ -171,7 +171,31 @@ const timelineData =[
     beetje vergeten), en herontdekt hoe fijn dat is om je CSS code te structureren.`,
     gitHubRepo: "https://github.com/DHvanTienhoven/portfolio_website",
     showInfo: false
-    }
+    },
+    
+    {date: "april 2021",
+    type: "opdracht",
+    imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/Romer_stakepool.png?raw=true",
+    title: "Romer Stakepool",
+    talen: ["html", "Sass"],
+    text: `Deze website maakte ik in opdracht van mijn broer. Hij wilde een strak en simpel design. De website is nog 'work in progress', aan de content wordt nog gewerkt, 
+    maar het meest uitdagende is om een goede structuur op te zetten om de subpagina's in alle talen (het is de bedoeling dat er ook nog een Spaanse sectie komt) op de juiste manier
+    te linken.`,
+    gitHubRepo: "https://github.com/DHvanTienhoven/Romer_stakepool",
+    showInfo: false
+    },
+
+    {date: "juni 2021",
+    type: "hobby",
+    imgUrl: "https://github.com/DHvanTienhoven/portfolio_website/blob/main/src/img/AHYF_zomer.png?raw=true",
+    title: "AHYF Festivalsite",
+    talen: ["html", "CSS"],
+    text: `Voor de zomer-editie van ons festival heb ik mijn oude ontwerp aangepast. De stijl en indeling zijn grotendeels hetzelfde als van de website die ik in januari maakte. Ook om de herkenbaarheid
+    van het festival te behouden. Maar ik heb hem aangepast naar het zomer-thema en natuurlijk de inhoud veranderd.`,
+    siteUrl: "https://ahyf-festivalsite.netlify.app/",
+    gitHubRepo: "https://github.com/DHvanTienhoven/hobbyprojecten/tree/main/Yogafestival/festival_zomer",
+    showInfo: false
+    },
 ]
 
 export default timelineData
